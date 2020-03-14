@@ -1,6 +1,7 @@
 package com.company;
 
-public interface Printable {
+public interface Printable<N> {
 
-    void printPrice();
+    public N printPrice();
+
 }
