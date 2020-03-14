@@ -6,6 +6,8 @@ public class Main {
 
         Stocks<Integer> numBox = new Stocks<>(4);
         Stocks<Double> nameBox = new Stocks<>(4.4d);
-        
+
+        numBox.printPrice();
+        nameBox.printPrice();
     }
 }

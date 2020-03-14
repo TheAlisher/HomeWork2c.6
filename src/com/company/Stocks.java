@@ -1,6 +1,6 @@
 package com.company;
 
-public class Stocks<N extends Number> implements Numbers {
+public class Stocks<N extends Number> implements Printable {
 
     N stock;
 
@@ -12,4 +12,9 @@ public class Stocks<N extends Number> implements Numbers {
         return stock;
     }
 
+
+    @Override
+    public void printPrice() {
+        System.out.println(stock);
+    }
 }
